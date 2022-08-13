@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("news/categories")
-public final class CategoriesController {
+final class CategoriesController {
     @Autowired
     private CategoriesRepo categoriesRepo;
 
